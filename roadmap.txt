@@ -1,0 +1,8 @@
+- Check every 15 mins?
+- Bollinger bands, 6 hour period
+- Buy when: price went below lower band, and then difference between current and previous lower band values is positive
+- Sell when: price went above upper band, and then difference between current and previous upper band values is negative
+- Buy amount based on balance * weight
+    - Weight could maybe be based on bollinger slope or width?
+    - Weight could also maybe be based on how many times the price crossed the bollinger bands
+    - Probably just start weight at 0.25 so we're not investing everything in one order
